@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investissement Immobilier en Estonie - Gestion Airbnb Professionnelle</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #4f46e5 0%, #10b981 100%);
+        }
+        .investment-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .stats-counter {
+            font-family: 'Arial', sans-serif;
+        }
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-building text-indigo-600 text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-gray-900">InvestEstonie</span>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#avantages" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Avantages</a>
+                    <a href="#fonctionnement" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Comment ça marche</a>
+                    <a href="#investir" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Investir</a>
+                    <a href="#contact" class="bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-700">Contactez-nous</a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-gradient text-white">
+        <div class="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+                <div class="mb-12 lg:mb-0">
+                    <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl mb-6">
+                        Investissez en Estonie avec <span class="block text-green-300">des rendements jusqu'à 15%</span>
+                    </h1>
+                    <p class="text-xl text-indigo-100 max-w-3xl">
+                        Nous gérons votre investissement immobilier en Estonie et maximisons vos revenus locatifs grâce à notre expertise Airbnb.
+                    </p>
+                    <div class="mt-8 flex flex-col sm:flex-row gap-4">
+                        <a href="#investir" class="bg-white text-indigo-600 px-8 py-4 rounded-md text-lg font-bold hover:bg-gray-100 text-center">Investir maintenant</a>
+                        <a href="#fonctionnement" class="border-2 border-white text-white px-8 py-4 rounded-md text-lg font-bold hover:bg-white hover:text-indigo-600 text-center">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Appartement moderne en Estonie" class="rounded-xl shadow-2xl floating">
+                    <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg">
+                        <div class="flex items-center">
+                            <div class="bg-green-100 p-3 rounded-full mr-3">
+                                <i class="fas fa-chart-line text-green-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-500">Rendement moyen</p>
+                                <p class="text-2xl font-bold text-gray-900">12.5%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Pourquoi l'Estonie</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Un marché immobilier en pleine croissance
+                </p>
+            </div>
+            <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white mx-auto">
+                        <i class="fas fa-euro-sign"></i>
+                    </div>
+                    <h3 class="mt-5 text-4xl font-bold text-gray-900 stats-counter" data-target="8.5">0.0</h3>
+                    <p class="mt-2 text-sm text-gray-500">Croissance annuelle moyenne des prix</p>
+                </div>
+                <div class="text-center">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white mx-auto">
+                        <i class="fas fa-bed"></i>
+                    </div>
+                    <h3 class="mt-5 text-4xl font-bold text-gray-900 stats-counter" data-target="75">0</h3>
+                    <p class="mt-2 text-sm text-gray-500">Taux d'occupation moyen Airbnb</p>
+                </div>
+                <div class="text-center">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white mx-auto">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="mt-5 text-4xl font-bold text-gray-900 stats-counter" data-target="3.5">0</h3>
+                    <p class="mt-2 text-sm text-gray-500">Millions de touristes par an</p>
+                </div>
+                <div class="text-center">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white mx-auto">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="mt-5 text-4xl font-bold text-gray-900 stats-counter" data-target="42">0</h3>
+                    <p class="mt-2 text-sm text-gray-500">Propriétés gérées avec succès</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Advantages Section -->
+    <div id="avantages" class="bg-gray-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-12">
+                <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Avantages</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Pourquoi investir avec nous
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md investment-card transition duration-300">
+                    <div class="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-hand-holding-usd text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Investissement collectif</h3>
+                    <p class="text-gray-600">
+                        Participez à l'achat d'appartements avec d'autres investisseurs. Nous atteignons ensemble le montant nécessaire puis nous gérons tout pour vous.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md investment-card transition duration-300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-pie text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Rendements élevés</h3>
+                    <p class="text-gray-600">
+                        Grâce à notre expertise Airbnb, nous maximisons vos revenus locatifs avec des rendements moyens de 12-15% par an.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md investment-card transition duration-300">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-user-shield text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Gestion clé en main</h3>
+                    <p class="text-gray-600">
+                        Nous nous occupons de tout : achat, rénovation, gestion locative, entretien et administration. Vous n'avez rien à faire.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- How It Works Section -->
+    <div id="fonctionnement" class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-16">
+                <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Fonctionnement</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Comment investir en Estonie
+                </p>
+            </div>
+            <div class="relative">
+                <div class="hidden lg:block absolute top-0 left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-200"></div>
+                <div class="space-y-12 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-8">
+                    <div class="relative lg:pr-8">
+                        <div class="flex items-center mb-4">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-indigo-500 text-white font-bold text-xl mr-4">1</div>
+                            <h3 class="text-xl font-bold text-gray-900">Choisissez votre investissement</h3>
+                        </div>
+                        <p class="mt-2 text-gray-600 ml-16">
+                            Sélectionnez le montant que vous souhaitez investir (à partir de 5 000€) et rejoignez notre pool d'investisseurs. Nous regroupons les fonds jusqu'à atteindre le montant nécessaire pour l'achat d'un bien.
+                        </p>
+                    </div>
+                    <div class="relative lg:pl-8 lg:pt-12">
+                        <div class="flex items-center mb-4">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-green-500 text-white font-bold text-xl mr-4">2</div>
+                            <h3 class="text-xl font-bold text-gray-900">Nous achetons et rénovons</h3>
+                        </div>
+                        <p class="mt-2 text-gray-600 ml-16">
+                            Notre équipe locale en Estonie identifie les meilleures opportunités, négocie l'achat et supervise les rénovations pour maximiser la valeur et le potentiel locatif du bien.
+                        </p>
+                    </div>
+                    <div class="relative lg:pr-8 lg:pt-12">
+                        <div class="flex items-center mb-4">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 text-white font-bold text-xl mr-4">3</div>
+                            <h3 class="text-xl font-bold text-gray-900">Nous gérons la location</h3>
+                        </div>
+                        <p class="mt-2 text-gray-600 ml-16">
+                            Nous mettons en place une stratégie Airbnb optimisée avec gestion complète : réservations, accueil des clients, ménage, maintenance et optimisation des prix.
+                        </p>
+                    </div>
+                    <div class="relative lg:pl-8 lg:pt-12">
+                        <div class="flex items-center mb-4">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-full bg-purple-500 text-white font-bold text-xl mr-4">4</div>
+                            <h3 class="text-xl font-bold text-gray-900">Vous recevez vos revenus</h3>
+                        </div>
+                        <p class="mt-2 text-gray-600 ml-16">
+                            Chaque mois, vous recevez votre part des revenus locatifs après déduction des frais de gestion. Nous fournissons des rapports détaillés sur la performance de votre investissement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Investment Calculator -->
+    <div id="investir" class="bg-indigo-700 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+                <div class="text-white mb-12 lg:mb-0">
+                    <h2 class="text-3xl font-bold mb-6">Simulez votre investissement</h2>
+                    <p class="text-indigo-100 mb-8">
+                        Découvrez combien vous pourriez gagner en investissant dans l'immobilier locatif en Estonie avec notre gestion professionnelle Airbnb.
+                    </p>
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="mb-4">
+                            <label for="investmentAmount" class="block text-sm font-medium text-gray-700 mb-1">Montant investi (€)</label>
+                            <input type="range" id="investmentAmount" min="5000" max="100000" step="1000" value="25000" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                            <div class="flex justify-between mt-2">
+                                <span class="text-sm text-gray-500">5 000€</span>
+                                <span id="amountValue" class="font-bold text-indigo-600">25 000€</span>
+                                <span class="text-sm text-gray-500">100 000€</span>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label for="investmentDuration" class="block text-sm font-medium text-gray-700 mb-1">Durée (années)</label>
+                            <input type="range" id="investmentDuration" min="1" max="10" value="5" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                            <div class="flex justify-between mt-2">
+                                <span class="text-sm text-gray-500">1 an</span>
+                                <span id="durationValue" class="font-bold text-indigo-600">5 ans</span>
+                                <span class="text-sm text-gray-500">10 ans</span>
+                            </div>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-600">Rendement annuel estimé:</span>
+                                <span id="annualReturn" class="font-bold text-indigo-600">12.5%</span>
+                            </div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-600">Revenus mensuels:</span>
+                                <span id="monthlyIncome" class="font-bold text-indigo-600">260€</span>
+                            </div>
+                            <div class="flex justify-between font-bold">
+                                <span class="text-gray-700">Gains totaux après durée:</span>
+                                <span id="totalReturn" class="text-green-600">18 750€</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-xl">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Prêt à investir?</h3>
+                    <form id="investmentForm" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Nom complet</label>
+                            <input type="text" id="name" name="name" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <input type="email" id="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                        </div>
+                        <div>
+                            <label for="amount" class="block text-sm font-medium text-gray-700">Montant d'investissement souhaité</label>
+                            <select id="amount" name="amount" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                                <option value="5000-10000">5 000€ - 10 000€</option>
+                                <option value="10000-25000">10 000€ - 25 000€</option>
+                                <option value="25000-50000">25 000€ - 50 000€</option>
+                                <option value="50000+">50 000€ et plus</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message (optionnel)</label>
+                            <textarea id="message" name="message" rows="3" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+                        </div>
+                        <div class="flex items-center">
+                            <input id="terms" name="terms" type="checkbox" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+                            <label for="terms" class="ml-2 block text-sm text-gray-700">
+                                J'accepte les <a href="#" class="text-indigo-600 hover:text-indigo-500">conditions générales</a>
+                            </label>
+                        </div>
+                        <div>
+                            <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                Envoyer ma demande d'investissement
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="bg-gray-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-12">
+                <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Témoignages</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Ce que disent nos investisseurs
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sophie D.">
+                        <div class="ml-4">
+                            <h4 class="font-bold text-gray-900">Sophie D.</h4>
+                            <p class="text-indigo-600">Investisseuse depuis 2020</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">
+                        "J'ai investi 25 000€ il y a deux ans et je reçois chaque mois entre 250€ et 300€ de revenus. La gestion est impeccable et je n'ai jamais eu à m'en occuper."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Pierre L.">
+                        <div class="ml-4">
+                            <h4 class="font-bold text-gray-900">Pierre L.</h4>
+                            <p class="text-indigo-600">Investisseur depuis 2021</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">
+                        "En tant que médecin avec peu de temps, je cherchais un investissement passif. Leur équipe a trouvé un super appartement à Tallinn et le gère parfaitement. Je recommande!"
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img class="h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Camille R.">
+                        <div class="ml-4">
+                            <h4 class="font-bold text-gray-900">Camille R.</h4>
+                            <p class="text-indigo-600">Investisseuse depuis 2019</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">
+                        "J'ai commencé avec 10 000€ et j'ai tellement été satisfaite que j'ai réinvesti 30 000€ l'année suivante. Les rapports sont très transparents et les rendements au rendez-vous."
+                    </p>
+                    <div class="flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center mb-12">
+                <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Questions fréquentes</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Vous avez des questions?
+                </p>
+            </div>
+            <div class="max-w-3xl mx-auto">
+                <div class="space-y-4">
+                    <div class="border border-gray-200 rounded-lg overflow-hidden">
+                        <button class="faq-question w-full flex justify-between items-center p-4 text-left font-medium text-gray-900 hover:bg-gray-50 focus:outline-none">
+                            <span>Comment fonctionne l'investissement collectif?</span>
+                            <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer hidden p-4 pt-0 text-gray-600">
+                            <p>Nous regroupons les fonds de plusieurs investisseurs jusqu'à atteindre le montant nécessaire pour l'achat d'un bien immobilier en Estonie. Chaque investisseur possède une part proportionnelle à son apport. Nous gérons ensuite l'achat, la rénovation si nécessaire, et la location du bien via Airbnb. Les revenus sont distribués chaque mois proportionnellement à votre investissement.</p>
+                        </div>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg overflow-hidden">
+                        <button class="faq-question w-full flex justify-between items-center p-4 text-left font-medium text-gray-900 hover:bg-gray-50 focus:outline-none">
+                            <span>Quels sont les risques?</span>
+                            <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer hidden p-4 pt-0 text-gray-600">
+                            <p>Comme tout investissement immobilier, il existe des risques : fluctuation des prix immobiliers, vacance locative, dommages matériels, etc. Cependant, nous minimisons ces risques grâce à : 1) Une sélection rigoureuse des biens dans des zones touristiques à forte demande, 2) Une diversification des locations entre court et moyen terme, 3) Une équipe locale pour la gestion et l'entretien, 4) Une assurance complète des biens. Historiquement, nos investissements ont toujours été rentables.</p>
+                        </div>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg overflow-hidden">
+                        <button class="faq-question w-full flex justify-between items-center p-4 text-left font-medium text-gray-900 hover:bg-gray-50 focus:outline-none">
+                            <span>Puis-je récupérer mon investissement?</span>
+                            <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer hidden p-4 pt-0 text-gray-600">
+                            <p>Nous prévoyons une sortie d'investissement après 5 ans en moyenne, soit par la vente du bien (avec partage des plus-values), soit par rachat de votre part par d'autres investisseurs. Avant cet horizon, il est possible de céder votre participation à un autre investisseur privé (nous facilitons cette transaction). Une pénalité de 5% peut s'appliquer pour les sorties avant 2 ans.</p>
+                        </div>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg overflow-hidden">
+                        <button class="faq-question w-full flex justify-between items-center p-4 text-left font-medium text-gray-900 hover:bg-gray-50 focus:outline-none">
+                            <span>Quels sont vos frais?</span>
+                            <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer hidden p-4 pt-0 text-gray-600">
+                            <p>Nous prélevons : 1) 3% à l'acquisition du bien (frais de dossier et transaction), 2) 20% sur les revenus locatifs bruts (couvrant toute la gestion et les frais courants), 3) 15% sur la plus-value en cas de revente. Il n'y a pas d'autres frais cachés. Tous les autres frais (taxes, charges, réparations) sont déduits avant la distribution des revenus.</p>
+                        </div>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg overflow-hidden">
+                        <button class="faq-question w-full flex justify-between items-center p-4 text-left font-medium text-gray-900 hover:bg-gray-50 focus:outline-none">
+                            <span>Comment sont sélectionnés les biens?</span>
+                            <i class="fas fa-chevron-down text-indigo-600 transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer hidden p-4 pt-0 text-gray-600">
+                            <p>Notre équipe locale en Estonie applique une grille de sélection stricte : emplacement dans des zones touristiques (Tallinn centre, Pärnu en bord de mer...), prix inférieur au marché, potentiel de valorisation par rénovation, facilité de gestion locative, demande Airbnb forte. Chaque acquisition est validée par notre comité d'investissement et fait l'objet d'une étude de rentabilité détaillée que nous partageons avec les investisseurs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div id="contact" class="bg-indigo-700">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:flex lg:justify-between">
+            <div class="max-w-xl">
+                <h2 class="text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
+                    Prêt à investir?
+                </h2>
+                <p class="mt-5 text-xl text-indigo-200">
+                    Contactez-nous pour une consultation gratuite et sans engagement.
+                </p>
+            </div>
+            <div class="mt-10 w-full max-w-md">
+                <form class="space-y-4">
+                    <div>
+                        <label for="cta-name" class="sr-only">Nom complet</label>
+                        <input id="cta-name" name="name" type="text" required class="block w-full border border-transparent rounded-md py-3 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white" placeholder="Nom complet">
+                    </div>
+                    <div>
+                        <label for="cta-email" class="sr-only">Email</label>
+                        <input id="cta-email" name="email" type="email" required class="block w-full border border-transparent rounded-md py-3 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white" placeholder="Email">
+                    </div>
+                    <div>
+                        <label for="cta-phone" class="sr-only">Téléphone</label>
+                        <input id="cta-phone" name="phone" type="tel" class="block w-full border border-transparent rounded-md py-3 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white" placeholder="Téléphone">
+                    </div>
+                    <div>
+                        <button type="submit" class="block w-full bg-white border border-transparent rounded-md py-3 px-4 text-base font-medium text-indigo-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white">
+                            Contactez-moi
+                        </button>
+                    </div>
+                </form>
+                <div class="mt-6 flex items-center justify-center space-x-4">
+                    <a href="#" class="bg-indigo-800 text-white p-3 rounded-full hover:bg-indigo-600">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="bg-indigo-800 text-white p-3 rounded-full hover:bg-indigo-600">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a href="#" class="bg-indigo-800 text-white p-3 rounded-full hover:bg-indigo-600">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">InvestEstonie</h3>
+                    <p class="mt-4 text-gray-300 text-sm">
+                        Spécialistes de l'investissement immobilier locatif en Estonie avec gestion Airbnb clé en main.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Navigation</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white">Accueil</a></li>
+                        <li><a href="#avantages" class="text-gray-300 hover:text-white">Avantages</a></li>
+                        <li><a href="#fonctionnement" class="text-gray-300 hover:text-white">Fonctionnement</a></li>
+                        <li><a href="#investir" class="text-gray-300 hover:text-white">Investir</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Légal</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white">Mentions légales</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">CGU</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Politique de confidentialité</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Risques</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Contact</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2 text-gray-400"></i>
+                            <span class="text-gray-300">Tallinn, Estonie</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2 text-gray-400"></i>
+                            <span class="text-gray-300">+372 123 4567</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2 text-gray-400"></i>
+                            <span class="text-gray-300">contact@investestonie.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">
+                    &copy; 2023 InvestEstonie. Tous droits réservés.
+                </p>
+                <div class="mt-4 md:mt-0 flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <div id="chatButton" class="bg-indigo-600 text-white rounded-full w-16 h-16 flex items-center justify-center shadow-xl cursor-pointer hover:bg-indigo-700 transition">
+            <i class="fas fa-comment-dots text-2xl"></i>
+        </div>
+        <div id="chatWidget" class="hidden absolute bottom-20 right-0 w-80 bg-white rounded-lg shadow-xl overflow-hidden">
+            <div class="bg-indigo-600 text-white p-4 flex justify-between items-center">
+                <h3 class="font-bold">Assistance en direct</h3>
+                <button id="closeChat" class="text-white hover:text-gray-200">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="p-4 h-64 overflow-y-auto bg-gray-50">
+                <div class="mb-4">
+                    <div class="bg-indigo-100 text-gray-800 rounded-lg p-3 max-w-xs">
+                        Bonjour! Comment puis-je vous aider aujourd'hui concernant votre investissement en Estonie?
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 border-t border-gray-200">
+                <div class="flex">
+                    <input type="text" placeholder="Tapez votre message..." class="flex-1 border border-gray-300 rounded-l-lg py-2 px-3 focus:outline-none focus:ring-1 focus:ring-indigo-500">
+                    <button class="bg-indigo-600 text-white px-4 rounded-r-lg hover:bg-indigo-700">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <p class="text-xs text-gray-500 mt-2">
+                    Nous utilisons l'IA pour répondre 24h/24 dans votre langue.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Stats counter animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const counters = document.querySelectorAll('.stats-counter');
+            const speed = 200;
+            
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+                const increment = target / speed;
+                
+                if(count < target) {
+                    counter.innerText = Math.ceil(count + increment);
+                    setTimeout(updateCount, 1);
+                } else {
+                    counter.innerText = target;
+                }
+                
+                function updateCount() {
+                    const count = +counter.innerText;
+                    const increment = target / speed;
+                    
+                    if(count < target) {
+                        counter.innerText = Math.ceil(count + increment);
+                        setTimeout(updateCount, 1);
+                    } else {
+                        counter.innerText = target;
+                    }
+                }
+            });
+            
+            // Investment calculator
+            const investmentAmount = document.getElementById('investmentAmount');
+            const amountValue = document.getElementById('amountValue');
+            const investmentDuration = document.getElementById('investmentDuration');
+            const durationValue = document.getElementById('durationValue');
+            const annualReturn = document.getElementById('annualReturn');
+            const monthlyIncome = document.getElementById('monthlyIncome');
+            const totalReturn = document.getElementById('totalReturn');
+            
+            function updateCalculator() {
+                const amount = parseInt(investmentAmount.value);
+                const duration = parseInt(investmentDuration.value);
+                const returnRate = 0.125; // 12.5%
+                
+                amountValue.textContent = amount.toLocaleString('fr-FR') + '€';
+                durationValue.textContent = duration + ' ans';
+                
+                const monthly = (amount * returnRate) / 12;
+                const total = amount * returnRate * duration;
+                
+                annualReturn.textContent = (returnRate * 100).toFixed(1) + '%';
+                monthlyIncome.textContent = Math.round(monthly).toLocaleString('fr-FR') + '€';
+                totalReturn.textContent = Math.round(total).toLocaleString('fr-FR') + '€';
+            }
+            
+            investmentAmount.addEventListener('input', updateCalculator);
+            investmentDuration.addEventListener('input', updateCalculator);
+            updateCalculator();
+            
+            // FAQ accordion
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    const answer = question.nextElementSibling;
+                    const icon = question.querySelector('i');
+                    
+                    answer.classList.toggle('hidden');
+                    icon.classList.toggle('rotate-180');
+                });
+            });
+            
+            // Chat widget
+            const chatButton = document.getElementById('chatButton');
+            const chatWidget = document.getElementById('chatWidget');
+            const closeChat = document.getElementById('closeChat');
+            
+            chatButton.addEventListener('click', () => {
+                chatWidget.classList.toggle('hidden');
+            });
+            
+            closeChat.addEventListener('click', () => {
+                chatWidget.classList.add('hidden');
+            });
+            
+            // Form submission
+            const investmentForm = document.getElementById('investmentForm');
+            
+            investmentForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                alert('Merci pour votre demande d\'investissement! Nous vous contacterons dans les plus brefs délais.');
+                investmentForm.reset();
+            });
+        });
+    </script>
+</body>
+</html>
